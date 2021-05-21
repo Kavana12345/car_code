@@ -2,9 +2,7 @@
 from flask import Flask, render_template,request
 from datetime import date
 import pickle
-import jsonify
-import requests
-import sklearn
+
 app=Flask(__name__,static_url_path='/static')
 
 model=pickle.load(open('modfile1.pkl','rb'))

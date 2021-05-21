@@ -3,7 +3,7 @@ from flask import Flask, render_template,request
 from datetime import date
 import pickle
 
-app=Flask(__name__,static_url_path='/static')
+app=Flask(__name__)
 
 model=pickle.load(open('modfile1.pkl','rb'))
 

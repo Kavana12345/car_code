@@ -1,0 +1,43 @@
+body{
+  background-image:url(img.jpg) no-repeat 0,0;
+  text-align:center;
+  background-color: #000000;
+  
+}  
+ input[type=number] {
+    border-radius: 10px;
+    height: 30px;
+    background-color: #C0C0C0;
+} 
+form{
+   font-size:20px;
+   font-weight: bold; 
+   font-style: oblique;
+   color:#B4DCCF; 
+}
+select{
+  border-radius: 4px;
+  width:150px;
+  height:30px;
+  border-radius:10px;
+  background-color: #C0C0C0;
+}
+header{
+  font-size:30px;
+  color:#008B8B;
+ font-style:italic;
+  font-weight:normal;
+  font-family: "Great Vibes", cursive;
+  text-shadow: 0 2px 2px #fff;
+}
+input[type=submit], input[type=reset] {
+  color:white;
+  font-weight:bold;
+  font-size:20px;
+  border: none;
+  border-radius: 14px;
+  height: 35px;
+  background-color:#2F4F4F;
+  padding: 8px 32px ;
+  cursor: pointer;
+}

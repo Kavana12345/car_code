@@ -1,6 +1,6 @@
 body{
-  background-color:#ece0cf;
-  background-image: url("/static/css/images/img.jpg") no-repeat 0,0;
+ 
+  background-image: url("https://th.bing.com/th/id/Rd078968bc905921e539a6f954e1e2ca1?rik=BXB%2bVL7RbwJNkg&riu=http%3a%2f%2fwww.rambina.com%2fwp-content%2fuploads%2f2016%2f05%2fwebsite-design-background-1.jpg&ehk=sfp4qsZtSaEdZFO%2bNlHNccV7SjEvam3NJUHkws%2b2QxY%3d&risl=&pid=ImgRaw") no-repeat 0,0;
   text-align:center;
   
 }  

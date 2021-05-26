@@ -1,6 +1,6 @@
 body{
  
-  background-image:url("/static/css/images/img.jpg");
+  background:url("/static/css/images/img.jpg") no-repeat 0,0;
   text-align:center;
   
 }  

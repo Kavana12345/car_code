@@ -43,10 +43,11 @@ def getPrice():
     year=ye-year
     prediction=model.predict([[price,kms,own,year,fu_diesel,fu_petrol,sel_ind,tr_man]])
     prediction=prediction[0]
+    prediction=int(prediction)
     if(prediction<0):
         return render_template("index_page.html",text='Sorry, you cant sell the car')
     else:
-        return render_template("index_page.html",text='You can sell the car for {}'.format(prediction))
+        return render_template("index_page.html",text='You can sell the car for {} lacks'.format(prediction))
     
 
 if __name__=="__main__":
